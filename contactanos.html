@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./SRC/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/contactanos.css">
+    <link rel="stylesheet" href="./CSS/whats.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Parque de estudios y reflexión Joquitzingo</title>
+    <style>
+        .inp{border: none; border-radius: 5px;padding: 3px; width:100%;  border: #ff6f00 5px solid ;}
+        .text{margin: 20px;}
+        .btn1{
+            background-color: cornsilk; border-radius: 10px; color: #ff6f00; padding: 5px; width:100%; border: none; margin-top: 15px;
+        }
+        .btn1:hover{
+            color: aliceblue;
+            background-color: #ff6f00;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <header id="navbar"></header>
+<main class="container" style="padding: 30px;">
+    <div class="row" id="rowContainer">
+        
+        <div class="col" id="colContainer">
+            <div class="map-container" >
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15086.466496764959!2d-99.5055113!3d19.0366079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdeb7e0e2f9e0d%3A0x82c6697725159e3!2sParque%20de%20Estudio%20y%20Reflexi%C3%B3n%20Joquicingo!5e0!3m2!1ses!2smx!4v1687115765237!5m2!1ses!2smx"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="500"
+                    style="border:0;"></iframe>
+            </div>
+            <div class="text"><h6>No olvides que puedes contactarnos por Whatsapp</h6></div>
+            
+        </div>
+        <div class="col">
+            <h1 id="idContactanos">¡Contáctanos!</h1>
+            <form class="formulario" id="formulario" name="formulario"
+                action="https://script.google.com/macros/s/AKfycbyGQDtsP1YOL1dsopmyb570AfX3soyUvAeSSaZcH1KXHdz-jdYoSXfM8XQqG-9ZiCTA/exec"
+                method="POST" enctype="multipart/form-data" style="border-radius:20px; padding:15px; border: #ff6f00 5px solid ; box-sizing: content-box;width: 100%; text-align: center;">
+                <!-- Grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="Email" class="formulario__label" style="color: darkorange;">Nombre:</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input inp" name="Nombre:" id="nombre" placeholder=" Ingrese su nombre">
+                    </div>
+                </div>
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="Email" class="formulario__label" style="color:darkorange;">Email:</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input inp" name="Email:" id="nombre" placeholder=" Ingrese su correo">
+                    </div>
+                </div>
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="select" class="formulario__label" style="color:darkorange;">Asunto:
+                    </label>
+                    <br>
+                    <select class="formulario__input inp" name="Asunto" id="nombre" required>
+                        <option value="Quiero ir al parque">Quiero ir al parque</option>
+                        <option value="Quiero ir al parque">Quiero organizar una actividad en el parque</option>
+                        <option value="Otro asunto">Otro asunto (Especificar en el mensaje) </option>
+                    </select>
+                </div>
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="mensaje" class="formulario__label" style="color:darkorange;">Mensaje:</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input inp" name="Mensaje:" id="nombre"placeholder="Escriba su mensaje">
+                    </div>
+                </div>
+                <div class="formulario__grupo ">
+                    <p class="formulario__grupo-btn-enviar">
+                        <input type="submit" class="formulario__btn btn1" name="Upload" value="Enviar"/>
+                    </p>
+                </div>
+            </form>
+            
+        </div>
+        <!--Cards de info-->
+        <div style="padding: 50px;">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card border-light " >
+                        <div class="card-body">
+                            <h1 class="card-title">¿Cómo llegar en transporte público?</h1>
+                            <p class="card-text" style="text-align: justify;">Si vienes en transporte público, ve a la terminal de Observatorio y toma el autobús Flecha Roja que va a Tenango. Paga
+                            hasta los arcos de Santa María Jajalpa. Pide que te bajen en los arcos, que es donde está el entronque hacia Malinalco.
+                            Cruza la avenida para tomar el micro que viene de Tenango hacia Malinalco (también hay taxis colectivos), y pide que te
+                            bajen a la entrada de la colonia Ojo de Agua (en el Parque de Estudio y Reflexión Joquicingo). Cruza la carretera y ahí
+                            vas a ver el anuncio del parque. Camina 200 metros hacia adentro, por un camino de terracería. El parque está como a 3
+                            kilómetros pasando el pueblo de Joquicingo. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-light">
+                        <div class="card-body">
+                            <h1 class="card-title">¿Cómo llegar desde Toluca?</h1>
+                            <p class="card-text" style="text-align: justify;">Abordar cualquier autobús a Tenango y ya en Tenango, preguntar por las micros que van a Malinalco (están a 3 calles de
+                            donde los deja el bus). Abordar la micro a Malinalco e indicarle al conductor que bajan en el Ojo de Agua de Joquicingo.
+                            Cuando bajen de la micro, sólo deben cruzar la carretera y caminar 200 metros hacia adentro.</p>
+                            <img class="img-fluid" src="./SRC/img/entrada.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="right">
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp"
+        onclick="window.location.href='https://wa.me/+525524105619?text=Hola!%20Estoy%20interesado%20en%20asistir%20al%20parque'" />
+</div>
+<div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/footer.js"></script>
+</body>
+
+</html>
