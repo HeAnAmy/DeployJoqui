@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,59 +13,75 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Parque de estudios y reflexión Joquicingo</title>
     <style>
-   
-    .flip-container {
-      perspective: 1000px;
-      width: 100%; /* Ajusta el ancho según tus necesidades */
-      height: 300px; /* Ajusta la altura según tus necesidades */
-    }
-    .flip-container:hover .flipper {
-      transform: rotateY(180deg);
-    }
-    .flipper {
-      transition: 0.6s;
-      transform-style: preserve-3d;
-      position: relative;
-    }
-    .front, .back {
-      backface-visibility: hidden;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .back {
-      transform: rotateY(180deg);
-    }
-    .img-fluid {
-      max-width: 100%;
-      max-height: 100%;
-      display: block;
-      margin: auto;
-    }
-      @media(min-width:900px){
-    .flip-container {
-      perspective: 1000px;
-      width: 100%; /* Ajusta el ancho según tus necesidades */
-      height: 700px; /* Ajusta la altura según tus necesidades */
-    }
-    }
-    @media(max-width:768px){
-    .flip-container {
-      perspective: 1000px;
-      width: 100%; /* Ajusta el ancho según tus necesidades */
-      height: 350px; /* Ajusta la altura según tus necesidades */
-    }
-    }
-    @media(max-width:500px){
-    .flip-container {
-      perspective: 1000px;
-      width: 100%; /* Ajusta el ancho según tus necesidades */
-      height:380px; /* Ajusta la altura según tus necesidades */
-    }
-    }
-   
+        .flip-container {
+            perspective: 1000px;
+            width: 100%;
+            /* Ajusta el ancho según tus necesidades */
+            height: 300px;
+            /* Ajusta la altura según tus necesidades */
+        }
+
+        .flip-container:hover .flipper {
+            transform: rotateY(180deg);
+        }
+
+        .flipper {
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        .front,
+        .back {
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .back {
+            transform: rotateY(180deg);
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        @media(min-width:900px) {
+            .flip-container {
+                perspective: 1000px;
+                width: 100%;
+                /* Ajusta el ancho según tus necesidades */
+                height: 700px;
+                /* Ajusta la altura según tus necesidades */
+            }
+        }
+
+        @media(max-width:768px) {
+            .flip-container {
+                perspective: 1000px;
+                width: 100%;
+                /* Ajusta el ancho según tus necesidades */
+                height: 350px;
+                /* Ajusta la altura según tus necesidades */
+            }
+        }
+
+        @media(max-width:500px) {
+            .flip-container {
+                perspective: 1000px;
+                width: 100%;
+                /* Ajusta el ancho según tus necesidades */
+                height: 380px;
+                /* Ajusta la altura según tus necesidades */
+            }
+        }
     </style>
 </head>
+
 <body>
     <!--Navbar-->
     <header id="navbar"></header>
@@ -77,10 +94,12 @@
                 aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
         </div>
-        
+
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./src/img/20.jpeg" class="d-block w-100" alt="...">
@@ -102,8 +121,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    
-    </div>
+
+        <!-- </div>
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
@@ -120,70 +139,91 @@
                 </div>
             </div>
         </div>
+    </div> -->
+        <br><br>
+        <div>
+            <section class="container">
+                <center>
+                    <h1 class="card-title" style="color: #FF8A02;">"Paremos las guerras"</h1>
+                    <iframe src="https://drive.google.com/file/d/1MvFDXtc_dDlfmSiW3ieEGCBWT7WnmAK2/preview" width="640"
+                        height="480" allow="autoplay"></iframe>
+                </center>
+            </section>
+        </div>
+
+        <!--Cards de info-->
+        <div>
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card border-light ">
+                        <div class="card-body">
+                            <h1 class="card-title">¿Qué es un Parque de Estudio y Reflexión?</h1>
+                            <p class="card-text">Es un espacio abierto al estudio y la reflexión para profundizar en uno
+                                mismo y
+                                favorecer la no-discriminación, el afecto y la reciprocidad en el trato a los demás. Han
+                                sido
+                                construidos con el apoyo voluntario de personas que participan del Movimiento Humanista
+                                y sus
+                                organismos, y del Mensaje de Silo, así como muchos amigos y simpatizantes de esta
+                                corriente de
+                                pensamiento. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-light">
+                        <div class="card-body">
+                            <h1 class="card-title">¿Qué se hace en estos parques?</h1>
+                            <p class="card-text">Talleres, retiros, convivios, celebraciones, ceremonias. Toda actividad
+                                que
+                                permita construir vínculos entre las personas, tomar contacto con lo más sagrado de uno
+                                y de
+                                otros, y que permita, además, avanzar en la construcción de un mundo más humano y menos
+                                violento. Es un espacio abierto donde no se discrimina a nadie, donde son bien recibidos
+                                todos
+                                aquellos que deseen construir con nosotros este espacio sagrado, participar en alguna
+                                actividad
+                                o proponer y ayudar a organizar alguna otra.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <center>
+                <h1 class="card-title">Recorrido por el Parque Joquicingo 2011-2020 </h1>
+                <h2>Aporte de Ivette García Maya</h2>
+                <iframe src="https://drive.google.com/file/d/147RFI_0M3kJupLuVMcFW8ABJLkTRUAqI/preview" width="100%"
+                    height="480" allow="autoplay"></iframe>
+            </center>
+        </section>
+        <br>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card" style="border: none;">
+                        <img src="./SRC/img/QR Youtube.png" class="card-img" alt="..." width="100%" height="400px">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="border: none;">
+                        <iframe width="100%" height="400"
+                            src="https://www.youtube.com/embed/uO-LV7PtFP0?si=x4SuORZC3e3G6hhN"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!--Cards de info-->
-    <div>
-        <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card border-light ">
-                    <div class="card-body">
-                        <h1 class="card-title">¿Qué es un Parque de Estudio y Reflexión?</h1>
-                        <p class="card-text">Es un espacio abierto al estudio y la reflexión para profundizar en uno mismo y
-                            favorecer la no-discriminación, el afecto y la reciprocidad en el trato a los demás. Han sido
-                            construidos con el apoyo voluntario de personas que participan del Movimiento Humanista y sus
-                            organismos, y del Mensaje de Silo, así como muchos amigos y simpatizantes de esta corriente de
-                            pensamiento. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card border-light">
-                    <div class="card-body">
-                        <h1 class="card-title">¿Qué se hace en estos parques?</h1>
-                        <p class="card-text">Talleres, retiros, convivios, celebraciones, ceremonias. Toda actividad que
-                            permita construir vínculos entre las personas, tomar contacto con lo más sagrado de uno y de
-                            otros, y que permita, además, avanzar en la construcción de un mundo más humano y menos
-                            violento. Es un espacio abierto donde no se discrimina a nadie, donde son bien recibidos todos
-                            aquellos que deseen construir con nosotros este espacio sagrado, participar en alguna actividad
-                            o proponer y ayudar a organizar alguna otra.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="container">
-        <center><h1 class="card-title">Recorrido por el Parque Joquicingo 2011-2020 </h1>
-        <h2>Aporte de Ivette García Maya</h2>
-        <iframe src="https://drive.google.com/file/d/147RFI_0M3kJupLuVMcFW8ABJLkTRUAqI/preview" width="100%" height="480"
-            allow="autoplay"></iframe></center>
-    </section>
-    <br>
-   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-            <div class="card" style="border: none;">
-                <img src="./SRC/img/QR Youtube.png" class="card-img" alt="..." width="100%" height="400px">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="border: none;">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/uO-LV7PtFP0?si=x4SuORZC3e3G6hhN"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    </div>
-   </div>
-    
-        
-    
+
+
     <br>
     <div class="right">
         <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp"
-            onclick="window.location.href='https://wa.me/+525524105619?text=Hola!%20Estoy%20interesado%20en%20asistir%20al%20parque'"/>
+            onclick="window.location.href='https://wa.me/+525524105619?text=Hola!%20Estoy%20interesado%20en%20asistir%20al%20parque'" />
     </div>
     <div id="footer"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -192,4 +232,5 @@
     <script src="./JS/main.js"></script>
     <script src="./JS/footer.js"></script>
 </body>
+
 </html>
